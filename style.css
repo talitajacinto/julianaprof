@@ -18,15 +18,6 @@ header {
     padding: 20px;
     background-color: #121212;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    .texto-com-imagem {
-        background-image: url('img05.jpg'); /* Substitua pelo caminho da sua imagem */
-        background-size: cover; /* Faz a imagem cobrir todo o elemento */
-        color: white; /* Cor do texto */
-        font-size: 40px; /* Tamanho da fonte */
-        text-align: center; /* Alinhamento do texto */
-        padding: 50px; /* Espaçamento interno */
-        height: 300px; /* Altura do elemento */
-    }
 }
 
 header .logo {
@@ -44,15 +35,6 @@ header nav ul li a {
     text-decoration: none;
     font-size: 18px;
     transition: all 0.3s ease;
-    .texto-com-imagem {
-        background-image: url('img05.jpg'); /* Substitua pelo caminho da sua imagem */
-        background-size: cover; /* Faz a imagem cobrir todo o elemento */
-        color: white; /* Cor do texto */
-        font-size: 40px; /* Tamanho da fonte */
-        text-align: center; /* Alinhamento do texto */
-        padding: 50px; /* Espaçamento interno */
-        height: 300px; /* Altura do elemento */
-    }
 }
 
 header nav ul li a:hover {
@@ -76,24 +58,17 @@ header nav ul li a:hover {
     margin: 0 auto;
     text-align: center;
     text-align: justify;
-            /* Cor inicial do link (não visitado) */
             a:link {
-                color: rgb(128, 239, 43); /* Cor do link não visitado */
+                color: rgb(128, 239, 43);
             }
-    
-            /* Cor do link após ser visitado */
             a:visited {
-                color: rgb(128, 239, 43); /* Cor do link não visitado */
+                color: rgb(128, 239, 43);
             }
-    
-            /* Cor do link quando o cursor passar por cima */
             a:hover {
-                color: rgb(128, 239, 43); /* Cor do link não visitado */
+                color: rgb(128, 239, 43); 
             }
-    
-            /* Cor do link quando ele for clicado */
             a:active {
-                color: rgb(128, 239, 43); /* Cor do link não visitado */
+                color: rgb(128, 239, 43); 
             }
 }
 
@@ -173,16 +148,14 @@ footer p {
     color: #fff;
     font-size: 14px;
 }
-/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
   
-  /* Estilos do rodapé */
   .footer {
-    background-color: #1DB954; /* Cor verde do tema Billie Eilish */
+    background-color: #1DB954;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -200,7 +173,6 @@ body {
     font-weight: bold;
   }
   
-  /* Estilos para as redes sociais */
   .social-links {
     list-style: none;
     padding: 0;
@@ -219,7 +191,7 @@ body {
   }
   
   .social-links a:hover {
-    color: #BBE1B3; /* Cor de destaque ao passar o mouse */
+    color: #BBE1B3;
   }
   
   .instagram {
